@@ -48,7 +48,7 @@ function playRound(humanChoice=getHumanChoice(), computerChoice=getComputerChoic
         computerScore++
     } else if (humanChoice==="Scissors" && computerChoice==="Scissors"){
         console.log("Draw!");
-        alert("You lose! Rock beats Scissors");
+        alert("Draw!");
     } else if (humanChoice==="Rock" && computerChoice==="Rock"){
         console.log("Draw!");
         alert("Draw!");
