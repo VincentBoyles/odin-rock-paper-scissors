@@ -1,0 +1,19 @@
+body {
+box-sizing: border-box;
+background-color: #85FFBD;
+}
+
+.container, .header {
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+#rock, #paper, #scissors{
+    min-height: 50px;
+    min-width: 100px;
+}
+
+#display {
+    text-align: center;
+}
