@@ -20,19 +20,19 @@ body {
 }
 
 #rock, #paper, #scissors {
-    background-color: #ff6b6b; /* Bright button color */
+    background-color: #ff6b6b; 
     border: none;
-    border-radius: 12px; /* Rounded edges */
+    border-radius: 12px; 
     padding: 15px 30px;
     font-size: 1.5rem;
     color: white;
     cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s; /* Smooth animations */
+    transition: transform 0.2s, background-color 0.2s; 
 }
 
 #rock:hover, #paper:hover, #scissors:hover {
-    background-color: #ffc93c; /* Change color on hover */
-    transform: scale(1.1); /* Slightly increase button size on hover */
+    background-color: #ffc93c; 
+    transform: scale(1.1); 
 }
 
 #display {
@@ -42,7 +42,7 @@ body {
 
 #display p {
     font-size: 1.5rem;
-    color: #4d77ff; /* Blue text for results */
+    color: #4d77ff; 
     margin-top: 10px;
 }
 
