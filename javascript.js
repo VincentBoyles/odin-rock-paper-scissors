@@ -63,19 +63,19 @@ function playRound(humanChoice, computerChoice=getComputerChoice()) {
         comScore.textContent = (`Computer Score: ${computerScore}`);
     } else if (humanChoice==="Paper" && computerChoice==="Scissors"){
         result.textContent = '';
-        result.append("You lose! Scissors beats Paper"); 
+        result.append("You lose! Computer chose Scissors! Scissors beats Paper!"); 
         computerScore++;
         humScore.textContent = (`Player Score: ${humanScore}`);
         comScore.textContent = (`Computer Score: ${computerScore}`);
     } else if (humanChoice==="Rock" && computerChoice==="Paper"){
         result.textContent = '';
-        result.append("You lose! Paper beats Rock");
+        result.append("You lose! Computer chose Paper! Paper beats Rock!");
         computerScore++;
         humScore.textContent = (`Player Score: ${humanScore}`);
         comScore.textContent = (`Computer Score: ${computerScore}`);
     } else if (humanChoice==="Scissors" && computerChoice==="Rock"){
         result.textContent = '';
-        result.append("You lose! Rock beats Scissors");
+        result.append("You lose! Computer chose Rock! Rock beats Scissors!");
         computerScore++;
         humScore.textContent = (`Player Score: ${humanScore}`);
         comScore.textContent = (`Computer Score: ${computerScore}`);
