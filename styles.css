@@ -1,19 +1,57 @@
 body {
-box-sizing: border-box;
-background-color: #85FFBD;
+    box-sizing: border-box;
+    background-color: #ffecd2; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    color: #333;
 }
 
-.container, .header {
-display: flex;
-justify-content: center;
-gap: 50px;
+.header {
+    font-size: 2rem;
+    color: #ff6b6b;
+    text-align: center;
+    margin-top: 20px;
 }
 
-#rock, #paper, #scissors{
-    min-height: 50px;
-    min-width: 100px;
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+#rock, #paper, #scissors {
+    background-color: #ff6b6b; /* Bright button color */
+    border: none;
+    border-radius: 12px; /* Rounded edges */
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s; /* Smooth animations */
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+    background-color: #ffc93c; /* Change color on hover */
+    transform: scale(1.1); /* Slightly increase button size on hover */
 }
 
 #display {
     text-align: center;
+    margin-top: 20px;
+}
+
+#display p {
+    font-size: 1.5rem;
+    color: #4d77ff; /* Blue text for results */
+    margin-top: 10px;
+}
+
+h5 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#display h5 {
+    margin: 10px 0;
+    font-size: 1.4rem;
 }
